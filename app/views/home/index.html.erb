@@ -1,2 +1,7 @@
-<%= form_tag '/color_boxes', :id => 'color_boxes', :remote => true do %>
-<%=
+<%= form_tag '/color_form', :id => 'color_form', :remote => true do %>
+<%= text_field_tag 'color' %>
+<%= %>
+
+
+<div id="color_boxes">
+</div><!-- #color_boxes -->
